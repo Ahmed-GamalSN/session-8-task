@@ -48,21 +48,23 @@ body{
 }
 
 .hero .layout .nav .logo img {
-    width:150px;
+    width:250px;
     background: transparent;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .hero .layout .nav ul li{
-    margin: 20px;
+    margin: 15px;
+    margin-top: 30px;
 }
 
 .hero .layout .nav ul li a{
    text-decoration: none;
-    padding: 6px;
+   padding-inline: 12px;
+   padding-block: 6px;
     color: white;
     transition: all 0.3s;
-    border-radius: 16px;
+    border-radius: 24px;
 }
 .hero .layout .nav ul li a:hover{
 background-color:#3B82F6 ;
@@ -81,22 +83,26 @@ color: white;
 
 .hero .layout .caption h1{
     margin: 30px 0px;
-    font-size: 2.5rem;
+    font-size: 55px;
     font-family: Arial, sans-serif;
     color: white;
+    white-space: nowrap;
 }
 .hero .layout .caption button {
     color: white;
     background-color: #2563EB;
     border: none;
-    border-radius: 16px;
+    border-radius: 24px;
     transition: 0.3s;
-    padding: 6px 6px;
+    padding-inline: 12px;
+    padding-block: 6px;
     margin-inline: 3pX;
     cursor: pointer;
     width: 30%;
      white-space: nowrap;
     font-weight: bold;
+    font-size: 18px;
+    
     &:hover {
         background-color: #1D4ED8;
         transform: translateY(-3px);
@@ -108,21 +114,25 @@ color: white;
 .about-us{
     margin-top: 0px;
     padding: 20px;
-    background-image: url(../imgs/Together_We_Grow_Teamwork_in_Blue.png);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imgs/ChatGPT\ background\ 2\ PM.png);
      background-size:cover;
      background-position: center;
      background-repeat: no-repeat;
      min-height: 100vh;
      height: auto;
     color: white;
+
+   
 }
 .about-us h2{
    text-align: center;
    width: 30%;
    margin: 2px auto 20px;
+   padding-bottom: 6px;
    border-radius: 30px;
    border: 3px solid #2563EB;
    border-top: none;
+   font-size: 30px;
 }
 
 .about-us p{
@@ -151,6 +161,7 @@ color: white;
     height: 370px;
     border-radius: 16px;
     border: solid 2px;
+    background: transparent;
 }
 
 .about-us .row .card .user-img .layout{
