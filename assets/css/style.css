@@ -206,6 +206,86 @@ color: white;
     }
 }
 
+/* --------- Responsive ----------- */
+
+
+
+@media (max-width: 992px) {
+  .hero .layout .nav {
+    padding: 0 20px;
+  }
+  
+  
+  .hero .layout .nav ul {
+    display: none; 
+  }
+
+  .hero .layout .nav .menu-icon {
+    display: block !important; 
+  }
+}
+
+
+@media (max-width: 576px) {
+  .hero .layout .nav {
+    height: 50px;
+  }
+
+  
+  .hero .layout .nav .logo img {
+    width: 140px;
+    margin-top: 20px;
+  }
+
+  
+  .hero h1, .hero .layout h1 {
+    font-size: 28px; 
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 576px) {
+  
+  .hero .layout .caption h1 {
+    font-size: 28px;
+    white-space: normal; 
+  }
+
+  .about-us h2{
+    padding-inline: 5px;
+    padding-block: 10px;
+    white-space: normal;
+  }
+  
+  .hero .layout .caption button {
+    width: 80%;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+
+
+
+  
+  .about-us .row .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (min-width: 576px) {
+  .about-us .row .card {
+    width: 50%; 
+  }
+}
+
+
+@media (min-width: 992px) {
+  .about-us .row .card {
+    width: 25%; 
+  }
+}
 
  
 
