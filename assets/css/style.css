@@ -254,8 +254,9 @@ color: white;
 
   .about-us h2{
     padding-inline: 5px;
-    padding-block: 10px;
-    white-space: normal;
+     padding-inline: 50px;
+    white-space: nowrap;
+    width: fit-content;
   }
   
   .hero .layout .caption button {
@@ -264,19 +265,29 @@ color: white;
     margin-bottom: 5px;
   }
 
-
-
   
   .about-us .row .card {
     width: 100%;
     margin-bottom: 20px;
+    white-space: nowrap;
   }
 }
+
+
+@media (max-width: 375px){
+.about-us h2{
+    padding-inline: 50px;
+    white-space: nowrap;
+    width: fit-content;
+}
+}
+
 
 
 @media (min-width: 576px) {
   .about-us .row .card {
     width: 50%; 
+    margin-block: 5px;
   }
 }
 
@@ -286,6 +297,35 @@ color: white;
     width: 25%; 
   }
 }
+
+
+@media (min-width: 992px) {
+  .hero .layout .nav ul {
+    display: flex !important; 
+  }
+
+  .hero .layout .nav .menu-icon {
+    display: none !important; 
+  }
+}
+
+
+@media (min-width: 992px) {
+  .about-us .row .card {
+    width: 25%; 
+  }
+}
+
+@media (min-width: 1280px) {
+  .hero .layout .caption h1 {
+    font-size: 55px; 
+    white-space: nowrap; 
+  }
+}
+
+
+
+
 
  
 
